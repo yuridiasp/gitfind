@@ -1,8 +1,9 @@
 import './style.css'
 
-function Input() {
+// eslint-disable-next-line react/prop-types
+function Input({ name, value, onChange }) {
   return (
-    <input placeholder='@usuario' />
+    <input type='search' name={name} placeholder='@usuario' value={value} onChange={onChange} />
   )
 }
 

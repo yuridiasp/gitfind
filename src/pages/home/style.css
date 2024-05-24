@@ -1,12 +1,13 @@
 .container {
     position: relative;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: right;
 }
 
 .content {
+    width: 60%;
     margin: 5%;
+    z-index: 1;
 }
 
 .searcher {
@@ -17,12 +18,12 @@
 
 .info {
     display: flex;
+    align-items: center;
     gap: 1rem;
     width: 100%;
     margin-right: 90px;
     margin-top: 40px;
     color: #999999;
-    z-index: 1;
     padding-bottom: 1rem;
 }
 
@@ -45,23 +46,9 @@
 .repositories h1 {
     text-align: center;
     margin: 2rem;
+    z-index: 1;
 }
 
-.repository {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem 0;
-}
-
-.repository a {
-    color: #539BF5;
-}
-
-.repository p {
-    color: #999999;
-}
-
-.repositories hr, .content hr {
+.content hr {
     background: rgb(229, 229, 229, 0.25);
 }

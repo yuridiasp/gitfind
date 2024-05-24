@@ -1,0 +1,18 @@
+.repository {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.repository a {
+    color: #539BF5;
+}
+
+.repository p {
+    color: #999999;
+}
+
+.repository hr {
+    background: rgb(229, 229, 229, 0.25);
+}
